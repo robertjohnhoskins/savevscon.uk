@@ -1,0 +1,12 @@
+{% for section in site.sections %}
+{% if section.published == true %}
+<section class="section section--{{ section.color }}">
+  <div class="row">
+    <div class="columns-12">
+      <h1>{{ section.title }}</h1>
+      {{ section.content }}
+    </div>
+  </div>
+</section>
+{% endif %}
+{% endfor %}

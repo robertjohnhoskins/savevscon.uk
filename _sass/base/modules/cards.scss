@@ -1,0 +1,40 @@
+.cards {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .card {
+    flex-basis: 15em;
+    flex-grow: 1;
+    padding: 1em;
+    //margin: 0 1em;
+
+    &--red{
+      background-color: $red;
+      h1,h2,h3,h4,h5,h6 {
+        color: $yellow;
+      }
+    }
+    &--yellow{
+      background-color: $yellow;
+      h1,h2,h3,h4,h5,h6 {
+        color: $red;
+      }
+    }
+    &--gray{
+      background-color: $dark-gray;
+      h1,h2,h3,h4,h5,h6 {
+        color: $yellow;
+      }
+    }
+    &__image {
+      height: 15em;
+      background: whitesmoke;
+      overflow: hidden;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

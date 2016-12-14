@@ -1,0 +1,15 @@
+.site {
+  // Site Header
+  &__header{
+    padding: 1em 0 1em 0;
+  }
+  // Site Main
+  &__main{
+    //padding: 1em 0 1em 0;
+  }
+  // Site Footer
+  &__footer{
+    padding: 1em 0 0 0;
+    text-align: center;
+  }
+}
